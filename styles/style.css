@@ -1,3 +1,87 @@
-h1 {
-  color: blueviolet;
+/* Commonly Shared style */
+
+body {
+  font-family: "Work Sans", sans-serif;
+  width: 1600px;
+  margin: 0 auto;
+}
+
+.btn-primary {
+  font-family: "Work Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: white;
+  color: #005fac;
+  padding: 20px 25px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* banner area style */
+
+.banner {
+  background-image: url("../images/banner/banner3.png");
+  background-repeat: no-repeat;
+  width: 1600px;
+  height: 800px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.banner-content {
+  width: 525px;
+  margin-right: 200px;
+  text-align: right;
+}
+
+.banner-content h2 {
+  color: white;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 65px;
+}
+
+.banner-description {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+}
+
+/* failure sectin style */
+
+.failure {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 200px;
+}
+
+.failure-content {
+  width: 415px;
+}
+
+.failure-content h2 {
+  font-family: inherit;
+  font-size: 40px;
+  line-height: 110%;
+  font-weight: 700;
+  color: #151414;
+}
+
+.failure-content p {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 400px;
+}
+
+.failure-content ul {
+  list-style: none;
+}
+
+.failure-content ul li:before {
+  content: "✓";
+  line-height: 26px;
 }
