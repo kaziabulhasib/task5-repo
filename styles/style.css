@@ -82,6 +82,6 @@ body {
 }
 
 .failure-content ul li:before {
-  content: "✓";
+  content: "✅ ";
   line-height: 26px;
 }
